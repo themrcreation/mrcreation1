@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+section {
+    height: 530px;
+}
+
+/* all common css end here  */
+
+/* welcome css start  */
+
+
+
+#welcome {
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.half_width {
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 5%;
+}
+
+.half_width h1 {
+    font-size: 50px;
+}
+
+
+.highlight {
+    color: yellowgreen;
+}
+
+
+.half_width h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+.half_width p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.half_width img {
+    width: 100%;
+}
+
+.half_width a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, yellow, rgb(109, 128, 0));
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.half_width a:hover {
+    background-image: linear-gradient(45deg,  rgb(109, 128, 0), yellow);
+}
+/* welcome css end */
+
+/* dream css start  */
+
+#dream   {
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half_width h2 {
+    padding-top: 30px;
+    font-size: 40px;
+}
+/* dream css end */
+
+/* experiences css start  */
+
+#experiences {
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experiences h2 {
+    padding-top: 0;
+    text-align: left;
+}
+.exp_area {
+    height: 80%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.exp_dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    
+}
+.exp_baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    
+}
+
+/* experiences css end */
+
+
+
+footer p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
